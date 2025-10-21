@@ -40,22 +40,101 @@
   </header>
 
   <!-- Sections vides (exemples) -->
-  <main class="container my-5">
-    <section id="competences" class="mb-5">
-      <h2>Compétences</h2>
-      <p>Liste de compétences SISR...</p>
-    </section>
+<section id="competences" class="py-5 bg-secondary text-light">
+  <div class="container">
+    <h2 class="mb-4">Compétences Techniques</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>🖥️ Systèmes</h4>
+        <ul>
+          <li>Administration Linux (Ubuntu, Debian)</li>
+          <li>Gestion des services (Apache, Nginx, SSH, Samba)</li>
+          <li>Scripts Bash</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h4>🌐 Réseaux</h4>
+        <ul>
+          <li>Configuration IP, VLAN, DHCP, DNS</li>
+          <li>Matériel Cisco, Netgear</li>
+          <li>Supervision (Zabbix, Grafana)</li>
+        </ul>
+      </div>
+      <div class="col-md-6 mt-4">
+        <h4>📦 Virtualisation & Conteneurisation</h4>
+        <ul>
+          <li>VirtualBox, Proxmox</li>
+          <li>Docker, Docker Compose</li>
+          <li>Déploiement de services conteneurisés</li>
+        </ul>
+      </div>
+      <div class="col-md-6 mt-4">
+        <h4>⚙️ Automatisation</h4>
+        <ul>
+          <li>Scripts PowerShell</li>
+          <li>Déploiement avec Ansible (bases)</li>
+          <li>CI/CD avec GitHub Actions</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section id="projets" class="mb-5">
-      <h2>Projets</h2>
-      <p>Exemples de projets...</p>
-    </section>
+<section id="projets" class="py-5 bg-dark text-light">
+  <div class="container">
+    <h2 class="mb-4">Projets & Infrastructures</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card bg-secondary text-light h-100">
+          <div class="card-body">
+            <h5 class="card-title">Xibo CMS auto-hébergé</h5>
+            <p class="card-text">Déploiement de Xibo CMS 4.3.0 sur Ubuntu 24.04 avec Docker Compose. Accessible en réseau local.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-secondary text-light h-100">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Grav CMS</h5>
+            <p class="card-text">Création d’un site portfolio avec Grav CMS, hébergé sur un serveur Ubuntu personnel.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-secondary text-light h-100">
+          <div class="card-body">
+            <h5 class="card-title">Symfony – Gestion de stock</h5>
+            <p class="card-text">Développement d’une interface Symfony 7 pour gérer des produits et matériaux, avec Bootstrap et relations personnalisées.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section id="veille" class="mb-5">
-      <h2>Veille</h2>
-      <p>Articles et ressources de veille...</p>
-    </section>
-  </main>
+<section id="veille" class="py-5 bg-secondary text-light">
+  <div class="container">
+    <h2 class="mb-4">Veille Technologique</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>📦 Infrastructure as Code (IaC)</h5>
+        <p>Exploration d’outils comme Ansible et Terraform pour automatiser le déploiement d’infrastructures. L’IaC permet de versionner et de répliquer facilement des environnements.</p>
+      </div>
+      <div class="col-md-6">
+        <h5>🔐 Sécurité des conteneurs</h5>
+        <p>Étude des bonnes pratiques pour sécuriser les environnements Docker : gestion des droits, scan d’images, isolation des services, et utilisation de Docker Bench Security.</p>
+      </div>
+      <div class="col-md-6 mt-4">
+        <h5>☁️ Virtualisation & Cloud</h5>
+        <p>Comparaison entre solutions de virtualisation (Proxmox, VMware) et plateformes cloud (AWS, Azure). Focus sur les usages pédagogiques et professionnels.</p>
+      </div>
+      <div class="col-md-6 mt-4">
+        <h5>📊 Supervision & Monitoring</h5>
+        <p>Découverte de Zabbix, Grafana et Prometheus pour surveiller les performances réseau et système. Intégration avec des alertes automatisées.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
