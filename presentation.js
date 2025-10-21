@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-  alert("Bienvenue dans ma présentation JavaScript !");
-}); 
+  console.log("Bienvenue dans la présentation JavaScript !");
+});
